@@ -1,0 +1,543 @@
+@media (max-width: 767px) {
+    .header_design {
+        min-height: 107px;
+        background-color: black;
+    }
+
+    .navbar_wrap {
+        padding-top: 25px;
+    }
+
+    .navbar_castom {
+        background-color: transparent;
+        background-image: none;
+        box-shadow: none;
+        border: none;
+
+    }
+
+    .nav li a {
+        color: white !important
+    }
+
+    .logo {
+        padding-top: 17px;
+    }
+
+    .header_image {
+        background: url(../img/bg-pic-xs.jpg) no-repeat;
+        min-height: 649px;
+        background-size: cover;
+        background-position: center center;
+
+    }
+
+    .header_content {
+        margin: 185px auto;
+        width: 46.005%;
+    }
+    .header_content h1 {
+        text-transform: uppercase;
+        font-size: 27px;
+        color: white;
+        font-weight: bold;
+
+    }
+    .header_content .see_details {
+        color: white;
+        background: black;
+        border: none;
+        padding: 12px 5px;
+        float: right;
+        margin-top: 50px
+    }
+
+
+
+    .slider_content {
+        text-align: center
+    }
+    .slider_content h1 {
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .slider_content p {
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: normal
+    }
+    .slider_content p i {
+        font-size: 30px
+    }
+
+
+    .multi-item-carousel .carousel-inner > .item {
+        -webkit-transition: 500ms ease-in-out left;
+        transition: 500ms ease-in-out left;
+    }
+    .multi-item-carousel .carousel-inner .active.left {
+        left: -33%;
+    }
+    .multi-item-carousel .carousel-inner .active.right {
+        left: 33%;
+    }
+    .multi-item-carousel .carousel-inner .next {
+        left: 33%;
+    }
+    .multi-item-carousel .carousel-inner .prev {
+        left: -33%;
+    }
+    @media all and (transform-3d),
+    (-webkit-transform-3d) {
+        .multi-item-carousel .carousel-inner > .item {
+            -webkit-transition: 500ms ease-in-out left;
+            transition: 500ms ease-in-out left;
+            -webkit-transition: 500ms ease-in-out all;
+            transition: 500ms ease-in-out all;
+            -webkit-backface-visibility: visible;
+            backface-visibility: visible;
+            -webkit-transform: none!important;
+            transform: none!important;
+        }
+    }
+    .multi-item-carousel .carouse-control.left,
+    .multi-item-carousel .carouse-control.right {
+        background-image: none;
+    }
+
+
+    .carousel {
+        background-color: white;
+    }
+
+    .white_bg_row {
+        background-color: white;
+        padding-top: 40px
+    }
+
+    .shadow_remove {
+        background-image: none !important;
+    }
+
+    .shadow_remove i {
+        color: gray;
+        font-size: 100px;
+        margin-top: 25px;
+        font-weight: 100
+    }
+
+
+    .achivement_bg {
+        background: url(../img/mount-bg-xs.jpg) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        min-height: 900px;
+        margin-top: 150px
+    }
+
+    .achive_content {
+        width: 80%;
+        position: relative;
+        left: 0;
+        top: 80px;
+    }
+    .achive_content h2 {
+        color: white;
+        font-size: 30px;
+        margin-bottom: 50px;
+        font-weight: bold;
+    }
+    .achive_content p {
+        color: white;
+        font-size: 12px;
+    }
+
+
+
+    .feature {
+        margin-top: 125px
+    }
+
+    .feature_content {
+        margin-bottom: 80px;
+        text-align: center
+    }
+    .feature_content h1 {
+        text-transform: uppercase;
+        font-size: 48px;
+        font-weight: bold;
+    }
+    .feature_content i {
+        font-size: 30px
+    }
+
+    .single_feature > a > img {
+        width: 100%
+    }
+
+    .single_feature p {
+        font-size: 16px;
+        color: #000000;
+        text-transform: capitalize;
+        margin-top: 10px
+    }
+
+
+    .footer_bg {
+        background: #000;
+        min-height: 395px;
+        margin-top: 80px;
+        
+    }
+
+    .footer_content {
+        padding-top: 50px
+    }
+    .footer_content h2 {
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: white;
+        padding-left: 30px
+    }
+    .footer_content ul {
+        list-style: none;
+        padding-left: 30px
+    }
+    .footer_content ul li {
+        color: #c9c9c9;
+        font-size: 12px;
+        padding-bottom: 10px;
+        text-align: left
+    }
+
+    .btn_styl {
+        background: #c7c7c7;
+        color: black;
+        font-weight: bold;
+        font-size: 14px;
+        border: none;
+        padding: 3px 5px;
+    }
+
+    .footer_icon {
+        margin-top: 60px;
+    }
+    .footer_icon > a > i {
+        color: white;
+        padding-right: 0px;
+        font-size: 20px;
+        padding-left: 30px
+    }
+
+
+    .footer_bottom {
+        margin-top: 68px;
+        color: white
+    }
+
+    .copyright p {
+        font-size: 8px;
+        margin-top: 7px
+    }
+
+    .region {
+        text-transform: capitalize;
+        padding: 0px
+    }
+    .change_sty {
+        font-size: 7px;
+        padding-left: 0px
+    }
+    
+    .style_input{
+        padding-left: 30px
+    }
+
+    .width_xs {
+        width: 85%;
+        
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .both_no_pad {
+        padding-left: 0px;
+        padding-right: 0px
+    }
+
+
+    .header_design {
+        min-height: 107px;
+        background-color: black;
+    }
+
+    .navbar_wrap {
+        padding-top: 25px;
+    }
+
+    .navbar_castom {
+        background-color: transparent;
+        background-image: none;
+        box-shadow: none;
+        border: none;
+
+    }
+
+    .nav li a {
+        color: white !important
+    }
+
+    .logo {
+        padding-top: 17px;
+    }
+
+    .header_image {
+        background: url(../img/bg-pic-sm.jpg) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        min-height: 649px
+    }
+
+    .header_content {
+        margin: 185px auto;
+        width: 54.5%;
+    }
+    .header_content h1 {
+        text-transform: uppercase;
+        font-size: 65px;
+        color: white;
+        font-weight: bold;
+    }
+    .header_content .see_details {
+        color: white;
+        background: black;
+        border: none;
+        padding: 12px 25px;
+        font-weight: bold;
+        float: right;
+        margin-top: 50px
+    }
+
+
+    .slider_content {
+        text-align: center
+    }
+    .slider_content h1 {
+        text-transform: uppercase;
+        font-size: 48px;
+        font-weight: bold;
+    }
+    .slider_content p {
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: normal
+    }
+    .slider_content p i {
+        font-size: 30px
+    }
+
+
+    .multi-item-carousel .carousel-inner > .item {
+        -webkit-transition: 500ms ease-in-out left;
+        transition: 500ms ease-in-out left;
+    }
+    .multi-item-carousel .carousel-inner .active.left {
+        left: -33%;
+    }
+    .multi-item-carousel .carousel-inner .active.right {
+        left: 33%;
+    }
+    .multi-item-carousel .carousel-inner .next {
+        left: 33%;
+    }
+    .multi-item-carousel .carousel-inner .prev {
+        left: -33%;
+    }
+    @media all and (transform-3d),
+    (-webkit-transform-3d) {
+        .multi-item-carousel .carousel-inner > .item {
+            -webkit-transition: 500ms ease-in-out left;
+            transition: 500ms ease-in-out left;
+            -webkit-transition: 500ms ease-in-out all;
+            transition: 500ms ease-in-out all;
+            -webkit-backface-visibility: visible;
+            backface-visibility: visible;
+            -webkit-transform: none!important;
+            transform: none!important;
+        }
+    }
+    .multi-item-carousel .carouse-control.left,
+    .multi-item-carousel .carouse-control.right {
+        background-image: none;
+    }
+
+
+    .carousel {
+        background-color: white;
+    }
+
+    .white_bg_row {
+        background-color: white;
+        padding-top: 40px
+    }
+
+    .shadow_remove {
+        background-image: none !important;
+    }
+
+    .shadow_remove i {
+        color: gray;
+        font-size: 300px;
+        margin-top: 30px
+    }
+
+    .achivement_bg {
+        background: url(../img/mount-bg-sm.jpg) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        min-height: 900px;
+        margin-top: 150px
+    }
+
+    .achive_content {
+        width: 40%;
+        position: relative;
+        left: 14%;
+        top: 200px;
+    }
+    .achive_content h2 {
+        color: white;
+        font-size: 48px;
+        margin-bottom: 70px;
+        font-weight: bold
+    }
+    .achive_content p {
+        color: white;
+        font-size: 15px;
+    }
+
+
+    .feature {
+        margin-top: 125px
+    }
+
+    .feature_content {
+        margin-bottom: 80px;
+        text-align: center
+    }
+    .feature_content h1 {
+        text-transform: uppercase;
+        font-size: 48px;
+        font-weight: bold;
+    }
+    .feature_content i {
+        font-size: 30px
+    }
+
+    .single_feature > a > img {
+        width: 100%
+    }
+
+    .single_feature p {
+        font-size: 16px;
+        color: #000000;
+        text-transform: capitalize;
+        margin-top: 10px
+    }
+
+
+    .footer_bg {
+        background: #000;
+        min-height: 395px;
+        margin-top: 80px
+    }
+
+    .footer_content {
+        padding-top: 50px;
+        width: 100%;
+        
+    }
+    .footer_content h2 {
+        text-transform: uppercase;
+        font-size: 17px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: white
+    }
+    .footer_content ul {
+        list-style: none;
+        padding-left: 0px
+    }
+    .footer_content ul li {
+        color: #c9c9c9;
+        font-size: 14px;
+        padding-bottom: 10px;
+        
+    }
+
+    .btn_styl {
+        background: #c7c7c7;
+        color: black;
+        font-weight: bold;
+        font-size: 14px;
+        border: none;
+        padding: 3px 5px;
+    }
+
+    .footer_icon {
+        margin-top: 60px;
+    }
+    .footer_icon > a > i {
+        color: white;
+        padding-right: 22px;
+        font-size: 20px
+    }
+
+
+    .footer_bottom {
+        margin-top: 68px;
+        color: white
+    }
+
+    .region {
+      
+       
+        text-transform: capitalize
+    }
+    .region span {
+        padding-left: 10px;
+        text-align: center
+    }
+
+
+
+}
+
+
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    ...
+}
+
+@media (min-width: 1200px) {
+    ...
+}
